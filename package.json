@@ -6,7 +6,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "tsx watch src/index.ts"
   },
-  "author": "",
+  "author": "Edenilson Mota",
   "license": "ISC",
   "description": "",
   "dependencies": {
@@ -23,5 +23,13 @@
     "tsx": "^4.20.3",
     "typescript": "^5.8.3",
     "typescript-eslint": "^8.36.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edenilsonmota/api-node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/edenilsonmota/api-node/issues"
+  },
+  "homepage": "https://github.com/edenilsonmota/api-node#readme"
 }
