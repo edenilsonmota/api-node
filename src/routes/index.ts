@@ -1,4 +1,5 @@
 import { Router } from "express";
+import { StatusCodes } from "http-status-codes";
 //import { cityRouter } from "./city.routes";
 //import { peopleRouter } from "./people.routes";
 
@@ -13,6 +14,7 @@ const router = Router();
 
 // Example route for people
 router.use("/city", (req, res) => {
+  res.status(StatusCodes.OK); 
   res.send("City route is not implemented yet.");
 });
 
